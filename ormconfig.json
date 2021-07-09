@@ -1,0 +1,23 @@
+{
+  "type": "mongodb",
+  "host": "mongodb+srv://admin:xq21c4@cluster0.8o7s7.mongodb.net/ciadraca-db?retryWrites=true&w=majority",
+  "port": 5432,
+  "username": "admin",
+  "password": "xq21c4",
+  "database": "ciadraca-db",
+  "synchronize": true,
+  "logging": false,
+  "useNewUrlParser": true,
+  "entities": [
+     "src/**/*.entity{.ts,.js}"
+  ],
+  "migrations": [
+     "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+     "src/subscriber/**/*.ts"
+  ],
+  "cli": {
+     "migrationsDir": "src/migration"
+  }
+}
